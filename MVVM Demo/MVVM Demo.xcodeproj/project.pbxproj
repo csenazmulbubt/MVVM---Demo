@@ -99,12 +99,14 @@
 		00BB926929A8F76300E9BBB4 /* MVVM Demo */ = {
 			isa = PBXGroup;
 			children = (
-				00BB926A29A8F76300E9BBB4 /* AppDelegate.swift */,
-				00BB926C29A8F76300E9BBB4 /* SceneDelegate.swift */,
-				00BB926E29A8F76300E9BBB4 /* ViewController.swift */,
-				00BB927029A8F76300E9BBB4 /* Main.storyboard */,
-				00BB927329A8F76700E9BBB4 /* Assets.xcassets */,
-				00BB927529A8F76700E9BBB4 /* LaunchScreen.storyboard */,
+				00BB929F29A8FB4600E9BBB4 /* Application */,
+				00BB929D29A8FB0200E9BBB4 /* Manager */,
+				00BB929C29A8FAEE00E9BBB4 /* ViewModel */,
+				00BB929B29A8FAC500E9BBB4 /* Helper */,
+				00BB929A29A8FAAE00E9BBB4 /* Controller */,
+				00BB92A129A8FBB800E9BBB4 /* Model */,
+				00BB929E29A8FB2900E9BBB4 /* Screens */,
+				00BB92A029A8FB8000E9BBB4 /* Resources */,
 				00BB927829A8F76700E9BBB4 /* Info.plist */,
 			);
 			path = "MVVM Demo";
@@ -125,6 +127,68 @@
 				00BB928D29A8F76700E9BBB4 /* MVVM_DemoUITestsLaunchTests.swift */,
 			);
 			path = "MVVM DemoUITests";
+			sourceTree = "<group>";
+		};
+		00BB929A29A8FAAE00E9BBB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00BB926E29A8F76300E9BBB4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00BB929B29A8FAC500E9BBB4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		00BB929C29A8FAEE00E9BBB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00BB929D29A8FB0200E9BBB4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00BB929E29A8FB2900E9BBB4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				00BB927529A8F76700E9BBB4 /* LaunchScreen.storyboard */,
+				00BB927029A8F76300E9BBB4 /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		00BB929F29A8FB4600E9BBB4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				00BB926A29A8F76300E9BBB4 /* AppDelegate.swift */,
+				00BB926C29A8F76300E9BBB4 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		00BB92A029A8FB8000E9BBB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00BB927329A8F76700E9BBB4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00BB92A129A8FBB800E9BBB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
